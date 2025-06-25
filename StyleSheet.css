@@ -1,0 +1,52 @@
+body 
+{
+	margin: 0px 0px; 
+	padding: 0px;
+	text-align:center;
+}
+
+#header
+{
+	background-color: red;
+	height: 100px;
+	margin: 0px auto;
+	padding: 25px;
+ 	border: 1px solid black;
+}
+
+#menu {
+	position: absolute;
+	top: 117px;
+	right: 0px;
+	background-color: #f0f0f0;
+	padding: 7px;
+	border: 1px solid #ccc;
+	width: fit-content;
+}
+
+#menu a {
+	margin: 0 5px;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	font-size: 16px;
+}
+
+#content
+{
+	min-height: 500px;
+	margin: 0px auto;
+	padding: 25px;
+ 	border-left: 1px solid black;
+ 	border-right: 1px solid black;
+	text-align: left;
+}
+
+#footer
+{
+	background-color: orange;
+	margin: 0px auto;
+	padding: 25px;
+	border: 1px solid black;
+}
+
